@@ -8,6 +8,7 @@
 * 游玩
 
   * [电脑](play/computer)
+    * [更新版本](server/howtoupdate)
   * [手机](play/phone)
     * [安卓](play/phone#安卓)
     * [ios](play/phone#ios)
