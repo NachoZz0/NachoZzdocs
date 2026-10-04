@@ -13,7 +13,7 @@
     * [安卓](play/phone#安卓)
     * [ios](play/phone#ios)
 
-* [服务器更新日志](server/upadte)
+* [服务器更新日志](server/update)
   
  
 
