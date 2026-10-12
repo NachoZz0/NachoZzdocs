@@ -26,5 +26,18 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  
+<script type="module">
+  import { createWidget } from 'https://esm.sh/l2d-widget@0.0.2';
+
+  createWidget({
+    model: {
+      path: 'NOIR/noir.model3.json',
+    },
+    position: 'bottom-right',
+    size: 300
+  });
+</script>
+
 </body>
 </html>
