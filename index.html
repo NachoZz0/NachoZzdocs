@@ -35,7 +35,36 @@
       path: 'NOIR/noir.model3.json',
     },
     position: 'bottom-right',
-    size: 300
+    size: 300,
+    menus: {
+      extraItems: [
+        {
+          icon: 'mdi:backup-restore',
+          label: '还原表情',
+          onClick: (widget) => widget.l2d.setExpression('default')
+        },
+        {
+          icon: 'mdi:emoticon-happy-outline',
+          label: '闭眼',
+          onClick: (widget) => widget.l2d.setExpression('eyeclose')
+        },
+        {
+          icon: 'mdi:emoticon-cry-outline',
+          label: '眼泪',
+          onClick: (widget) => widget.l2d.setExpression('tears')
+        },
+        {
+          icon: 'mdi:invert-colors',
+          label: '变白',
+          onClick: (widget) => widget.l2d.setExpression('white')
+        },
+        {
+          icon: 'mdi:emoticon-confused-outline',
+          label: '圈圈眼',
+          onClick: (widget) => widget.l2d.setExpression('quanquan')
+        }
+      ]
+    }
   });
 </script>
 
